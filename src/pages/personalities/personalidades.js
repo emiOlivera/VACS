@@ -1,0 +1,15 @@
+export const personalities = {
+  amorosa: "Porque pese a que parece no demostrarlo en muchos casos, ella es una persona sensible que siente a flor de piel amor, por el arte, por las personas, por los animales, y en cada ocasión que se presenta demuestra cuánto siente.",
+  temeraria: "Tiene una personalidad valerosa que bien podría aparecerse el mismísimo diablo enfrente que lo cagaria a piñas y está perfecto.",
+  graciosa: "Entiende todo tipo de humor y es genuinamente graciosa con las formas de contar las cosas, incluso gestualizándolas.",
+  aventurera: "Probablemente la mina con más historias por contar que puedas conocer: viajes, aventuras, desdichas y alegrías, casi como si hubiera vivido varias vidas en una misma.",
+  empatica: "Si tuviera que morir por las personas que aprecia lo haría; es capaz de entender a niveles inimaginables las penas y el dolor de otros.",
+  dramatica: "Casi como si viviera en una película, romantiza cada pequeño detalle de su vida, haciendo de la vida de los que las rodean más entretenida; si no vamos a vivir de esa manera, ¿para qué hacerlo?",
+  volatil: "Intensa y explosiva, a veces incontrolable, como el fuego y la marea; puede ser un agua en calma o un huracán, lo cual la hace muy especial.",
+  sonadora: "No solo literalmente soñadora, cada noche es una nueva aventura dentro de su mente. Busca crecer, sus propias metas y ayuda a todos a buscar las suyas. Quiere comerse el mundo, y lo va a lograr. Un día entrará aquí y leerá esto, habiéndolo logrado.",
+  inteligente: "Razona cada cosa que se encuentra en su camino, es capaz de analizar y entender todo, incluso dándole su impronta. Además, tiene una inteligencia creativa superior a los demás.",
+  melomana: "No hace falta aclarar que su gusto musical es exquisito; gran conocedora de muchas de las mejores bandas de la historia y de la actualidad también.",
+  cinefila: "Su mayor amor, y el mío también, es el séptimo arte a flor de piel. Conocedora y apreciativa, sabe del amor fílmico, de los planos, los tiempos y los guiones; es el cine hecho mujer.",
+  empoderada: "Una guerrera nata, el mismo tipo de mujer por la que hoy las mujeres votan y por las que tienen voz; por eso muchos tienen miedo de sus capacidades.",
+  libre: "Es un espíritu independiente, tan bello como libre; si tenés el placer de verla, simplemente te deja con el corazón en la mano, con rasgos que seguramente ha tenido Afrodita.",
+};

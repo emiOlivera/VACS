@@ -1,0 +1,207 @@
+/* Fuente moderna desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* ===== CONTENEDOR PRINCIPAL ===== */
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #111;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+/* ===== TARJETA DE BIENVENIDA ===== */
+.welcome-card {
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  padding: 20px;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.welcome-card h1 {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #487bda;
+  text-shadow: 0 0 1px #0e51ce, 0 0 2px #0e51ce, 0 0 3px #0e51ce;
+  animation: neonBlink 2.5s infinite alternate;
+}
+
+.welcome-card h2 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  color: #487bda;
+  text-shadow: 0 0 1px #0e51ce, 0 0 2px #0e51ce, 0 0 3px #0e51ce;
+  animation: neonBlink 2.5s infinite alternate;
+}
+
+.welcome-card p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+/* Animación parpadeo h1/h2 */
+@keyframes neonBlink {
+  0% { text-shadow: 0 0 1px #0e51ce, 0 0 2px #0e51ce, 0 0 3px #0e51ce; }
+  50% { text-shadow: 0 0 2px #0e51ce, 0 0 3px #0e51ce, 0 0 4px #0e51ce; }
+  100% { text-shadow: 0 0 1px #0e51ce, 0 0 2px #0e51ce, 0 0 3px #0e51ce; }
+}
+
+/* ===== REJILLA DE RASGOS ===== */
+.traits-grid {
+  display: grid;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  justify-items: center;
+}
+
+/* ===== TARJETAS INDIVIDUALES ===== */
+.trait-card {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  color: #000;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Texto centrado */
+.trait-card h2 {
+  margin: 0;
+  z-index: 2;
+  text-align: center;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Brillo animado limitado a la tarjeta (debajo del texto) */
+.trait-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255,255,255,0.1) 0%,
+    rgba(255,255,255,0.35) 50%,
+    rgba(255,255,255,0.1) 100%
+  );
+  transform: rotate(25deg);
+  animation: shine 2.5s linear infinite;
+  pointer-events: none;
+  z-index: 1;
+}
+
+@keyframes shine {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+.trait-card:hover {
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow:
+    0 0 15px rgba(255,255,255,0.4),
+    0 0 30px rgba(255,255,255,0.2),
+    0 0 50px rgba(255,255,255,0.2);
+  filter: brightness(1.2);
+}
+
+/* ===== COLORES DE TEXTO PERSONALIZADOS ===== */
+
+/* Fondos claros → texto negro */
+.trait-volatil h2,
+.trait-graciosa h2,
+.trait-inteligente h2,
+.trait-cinefila h2,
+.trait-sonadora h2,
+.trait-melomana h2 {
+  color: #000 !important;
+  text-shadow: 0 0 4px rgba(255,255,255,0.3);
+}
+
+/* Texto blanco solo para Dramatica */
+.trait-dramatica h2 {
+  color: #fff !important;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+/* ===== MEDIA QUERIES ===== */
+
+/* Desktop: 3 filas x 5 columnas */
+@media (min-width: 1025px) {
+  .traits-grid {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .trait-card {
+    width: 180px;
+    aspect-ratio: 1 / 1;
+  }
+  .trait-card h2 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .traits-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .trait-card {
+    width: 140px;
+    aspect-ratio: 1 / 1;
+  }
+  .trait-card h2 {
+    font-size: 1rem;
+  }
+}
+
+/* Móvil */
+@media (max-width: 768px) {
+  .traits-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .trait-card {
+    width: 110px;
+    aspect-ratio: 1 / 1;
+  }
+  .trait-card h2 {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .traits-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .trait-card {
+    width: 90px;
+    aspect-ratio: 1 / 1;
+  }
+  .trait-card h2 {
+    font-size: 0.8rem;
+  }
+}

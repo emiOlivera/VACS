@@ -1,0 +1,143 @@
+/* Contenedor general de la personalidad */
+.personality-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background-color: #111;
+  color: #fff;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Título principal */
+.personality-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #487bda;
+  text-shadow: 0 0 1px #0e51ce, 0 0 2px #0e51ce, 0 0 3px #0e51ce;
+  text-align: center;
+}
+
+/* Descripción de la personalidad */
+.personality-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Grid de las películas */
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  margin-top: 30px;
+}
+
+/* Tarjeta individual */
+.movie-card {
+  perspective: 1000px;
+  width: 260px;  /* más grande */
+  height: 400px; /* más grande */
+}
+
+/* Inner card (front + back) */
+.movie-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Flip al pasar el cursor */
+.movie-card:hover .movie-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Lado frontal y trasero */
+.movie-card-front,
+.movie-card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Lado frontal: solo la imagen */
+.movie-card-front {
+  background-color: #222;
+}
+
+.movie-poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Lado trasero */
+.movie-card-back {
+  background-color: #333;
+  color: #ff69b4; /* texto rosa */
+  transform: rotateY(180deg);
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+/* Título de la película atrás */
+.movie-card-back h3 {
+  margin-bottom: 8px;
+  text-align: center;
+  color: #ff69b4;
+  font-size: 1.1rem;
+}
+
+/* Párrafos y palabras clave en rosa */
+.movie-card-back p {
+  margin: 4px 0;
+  line-height: 1.3;
+}
+
+/* Palabras claves: Director, Año, Reparto, Sinopsis */
+.movie-card-back p strong {
+  color: #ff69b4;
+}
+
+/* Responsive: filas de dos para pantallas grandes */
+@media (min-width: 600px) {
+  .movies-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .movies-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .movies-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
