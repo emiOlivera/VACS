@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/VACS/static/css/main.d7e0ab90.css",
-    "main.js": "/VACS/static/js/main.0dc419f5.js",
+    "main.js": "/VACS/static/js/main.10ce330a.js",
     "static/js/453.ed6c3dac.chunk.js": "/VACS/static/js/453.ed6c3dac.chunk.js",
     "static/media/littlewoman.jpg": "/VACS/static/media/littlewoman.7dfc51896ab3ac0c287c.jpg",
     "static/media/littlefish.jpg": "/VACS/static/media/littlefish.15032462e1596421ec9c.jpg",
@@ -68,6 +68,7 @@
     "static/media/thenotebook.jpg": "/VACS/static/media/thenotebook.3348c6161f9dee0f7f43.jpg",
     "static/media/thesecretlifeofwaltermitty.jpg": "/VACS/static/media/thesecretlifeofwaltermitty.d22c9786c3af95d2a087.jpg",
     "static/media/thetheoryofeverything.jpg": "/VACS/static/media/thetheoryofeverything.fdcb77cd73397ef17de6.jpg",
+    "static/media/thesixthsense.jpg": "/VACS/static/media/thesixthsense.ddd962cd2119420356b1.jpg",
     "static/media/theinvisibleman.jpg": "/VACS/static/media/theinvisibleman.babfaecf9c4b775e44e1.jpg",
     "static/media/thegirlwiththedragontattoo.jpg": "/VACS/static/media/thegirlwiththedragontattoo.99e41512f13876a31490.jpg",
     "static/media/zodiac.jpg": "/VACS/static/media/zodiac.b88a82d7cd800493171a.jpg",
@@ -77,6 +78,7 @@
     "static/media/deadpoetssociety.jpg": "/VACS/static/media/deadpoetssociety.28c51018f5ab963c420b.jpg",
     "static/media/persona.jpg": "/VACS/static/media/persona.d361b8468a9d0c5e6313.jpg",
     "static/media/lesdiaboliques.jpg": "/VACS/static/media/lesdiaboliques.03547a25f68813d5a247.jpg",
+    "static/media/mulholland drive.jpg": "/VACS/static/media/mulholland drive.24d38bb0b1a9cd90bc7b.jpg",
     "static/media/thedevilwearsprada.jpg": "/VACS/static/media/thedevilwearsprada.18a9e93167399f610737.jpg",
     "static/media/wildlife.jpg": "/VACS/static/media/wildlife.5462879294a0f21cb48c.jpg",
     "static/media/acrosstheuniverse.jpg": "/VACS/static/media/acrosstheuniverse.7ff6c9fa227631d52a73.jpg",
@@ -88,9 +90,11 @@
     "static/media/palmsprings.jpg": "/VACS/static/media/palmsprings.cd01108a74c13118870b.jpg",
     "static/media/boogienights.jpg": "/VACS/static/media/boogienights.cbea512d28165e20e5d9.jpg",
     "static/media/normarae.jpg": "/VACS/static/media/normarae.9f8cef7cc0238022abcb.jpg",
+    "static/media/lapielquehabito.jpg": "/VACS/static/media/lapielquehabito.1b54a60c154dd15e17a6.jpg",
     "static/media/paristexas.jpg": "/VACS/static/media/paristexas.cdcc0c8a10c9ce6a781c.jpg",
     "static/media/billyelliot.jpg": "/VACS/static/media/billyelliot.ee7ae2bad1cc03625364.jpg",
     "static/media/killbill.jpg": "/VACS/static/media/killbill.dbaeb69a3b3fcba3c955.jpg",
+    "static/media/incendies.jpg": "/VACS/static/media/incendies.d1af06d1fe4817ae533f.jpg",
     "static/media/thelastofthemohicans.jpg": "/VACS/static/media/thelastofthemohicans.740dfc7152eba43e0a34.jpg",
     "static/media/lalaland.jpg": "/VACS/static/media/lalaland.81f0f3c7e400ef231405.jpg",
     "static/media/childrenofmen.jpg": "/VACS/static/media/childrenofmen.2a650c14e6fa3af09bc2.jpg",
@@ -107,8 +111,11 @@
     "static/media/thegreatestshowman.jpg": "/VACS/static/media/thegreatestshowman.94e6d3d8545bd4e92c66.jpg",
     "static/media/lavieestbelle.jpg": "/VACS/static/media/lavieestbelle.58d1efd07553b6d45fac.jpg",
     "static/media/pearl.jpg": "/VACS/static/media/pearl.94c85cf99f15c7657437.jpg",
+    "static/media/ataleoftwosisters.jpg": "/VACS/static/media/ataleoftwosisters.a606418cebf2a36cf693.jpg",
+    "static/media/prisoners.jpg": "/VACS/static/media/prisoners.aea9a0796d9002b01b76.jpg",
     "static/media/beforesunrise.jpg": "/VACS/static/media/beforesunrise.beb942f4d936f0b4362a.jpg",
     "static/media/arrival.jpg": "/VACS/static/media/arrival.7258acc34b17b3fbb357.jpg",
+    "static/media/oldboy.jpg": "/VACS/static/media/oldboy.607f59b98037e474c089.jpg",
     "static/media/thedisasterartist.jpg": "/VACS/static/media/thedisasterartist.41b32e711c307588814b.jpg",
     "static/media/dunkirk.jpg": "/VACS/static/media/dunkirk.05d1ed9ea0e49cd1ac3c.jpg",
     "static/media/stillalice.jpg": "/VACS/static/media/stillalice.8b3a4dac72c09270a84c.jpg",
@@ -121,6 +128,7 @@
     "static/media/adifferentman.jpg": "/VACS/static/media/adifferentman.11b1d4c50141d622c97a.jpg",
     "static/media/americanbeauty.jpg": "/VACS/static/media/americanbeauty.e7009d4af7dcb2412806.jpg",
     "static/media/invictus.jpg": "/VACS/static/media/invictus.b4be1f6ea43b8d776be9.jpg",
+    "static/media/donniedarko.jpg": "/VACS/static/media/donniedarko.49bd9d66aa0231e87a00.jpg",
     "static/media/zoolander.jpg": "/VACS/static/media/zoolander.804cff17f5156f4e1f59.jpg",
     "static/media/romanholiday.jpg": "/VACS/static/media/romanholiday.407e904a97c5a95b1433.jpg",
     "static/media/orgulloyprejuicio.jpg": "/VACS/static/media/orgulloyprejuicio.f89349b887eb154a3bdd.jpg",
@@ -133,6 +141,7 @@
     "static/media/theexorcist.jpg": "/VACS/static/media/theexorcist.5e753adaddb1840b052a.jpg",
     "static/media/hereditary.jpg": "/VACS/static/media/hereditary.bee889af0c962b8e696d.jpg",
     "static/media/theshining.jpg": "/VACS/static/media/theshining.949d0323bdc49117acea.jpg",
+    "static/media/mother.jpg": "/VACS/static/media/mother.e535ea7a71b4ae5fb989.jpg",
     "static/media/madmen.jpg": "/VACS/static/media/madmen.50d10a77ade415c7cffc.jpg",
     "static/media/secretary.jpg": "/VACS/static/media/secretary.b791ce5658684beecdba.jpg",
     "static/media/blackswan.jpg": "/VACS/static/media/blackswan.074626ca1fee7918875f.jpg",
@@ -144,6 +153,7 @@
     "static/media/12yearsaslave.jpg": "/VACS/static/media/12yearsaslave.3289f29e5b8266be4142.jpg",
     "static/media/cinemaparadiso.jpg": "/VACS/static/media/cinemaparadiso.022fa22206b4674eaea5.jpg",
     "static/media/therockyhorrorpictureshow.jpg": "/VACS/static/media/therockyhorrorpictureshow.b09f08a7533f283b47e8.jpg",
+    "static/media/theprestige.jpg": "/VACS/static/media/theprestige.187d4ac25aca58785672.jpg",
     "static/media/therewillbeblood.jpg": "/VACS/static/media/therewillbeblood.6625a85404f83551cdcf.jpg",
     "static/media/jurassicpark.jpg": "/VACS/static/media/jurassicpark.18e63fa1ac8b5ae6bc71.jpg",
     "static/media/gia.jpg": "/VACS/static/media/gia.b81db83f4a3d21ce3066.jpg",
@@ -164,11 +174,11 @@
     "static/media/temeraria.jpg": "/VACS/static/media/temeraria.30c2c89f3098589003ba.jpg",
     "index.html": "/VACS/index.html",
     "main.d7e0ab90.css.map": "/VACS/static/css/main.d7e0ab90.css.map",
-    "main.0dc419f5.js.map": "/VACS/static/js/main.0dc419f5.js.map",
+    "main.10ce330a.js.map": "/VACS/static/js/main.10ce330a.js.map",
     "453.ed6c3dac.chunk.js.map": "/VACS/static/js/453.ed6c3dac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7e0ab90.css",
-    "static/js/main.0dc419f5.js"
+    "static/js/main.10ce330a.js"
   ]
 }
