@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/VACS/static/css/main.d7e0ab90.css",
-    "main.js": "/VACS/static/js/main.10ce330a.js",
+    "main.css": "/VACS/static/css/main.2542ca6b.css",
+    "main.js": "/VACS/static/js/main.30171f7c.js",
     "static/js/453.ed6c3dac.chunk.js": "/VACS/static/js/453.ed6c3dac.chunk.js",
     "static/media/littlewoman.jpg": "/VACS/static/media/littlewoman.7dfc51896ab3ac0c287c.jpg",
     "static/media/littlefish.jpg": "/VACS/static/media/littlefish.15032462e1596421ec9c.jpg",
@@ -173,12 +173,12 @@
     "static/media/trabajadora.jpg": "/VACS/static/media/trabajadora.c4e54cd3440312c9b164.jpg",
     "static/media/temeraria.jpg": "/VACS/static/media/temeraria.30c2c89f3098589003ba.jpg",
     "index.html": "/VACS/index.html",
-    "main.d7e0ab90.css.map": "/VACS/static/css/main.d7e0ab90.css.map",
-    "main.10ce330a.js.map": "/VACS/static/js/main.10ce330a.js.map",
+    "main.2542ca6b.css.map": "/VACS/static/css/main.2542ca6b.css.map",
+    "main.30171f7c.js.map": "/VACS/static/js/main.30171f7c.js.map",
     "453.ed6c3dac.chunk.js.map": "/VACS/static/js/453.ed6c3dac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7e0ab90.css",
-    "static/js/main.10ce330a.js"
+    "static/css/main.2542ca6b.css",
+    "static/js/main.30171f7c.js"
   ]
 }
